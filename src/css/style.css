@@ -1,0 +1,26 @@
+.header {
+    font-family: Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+.cell {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: black solid 1px;
+}
+
+.active {
+    background-image: url("../img/goblin.png");
+    background-size: cover;
+}
